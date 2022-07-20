@@ -1,0 +1,214 @@
+[
+  {
+    "Smartphone": [
+      {
+        "image": "163-1631644_iphone-xr-iphone-xr-transparent-background-clipart-removebg-preview.png",
+        "name": "Iphone XR",
+        "price": "Rp6.336.000",
+        "remainder": "100"
+      },
+      {
+        "image": "70-700472_iphone-xs-transparent-background-hd-png-download-removebg-preview (1).png",
+        "name": "Iphone XS",
+        "price": "Rp5.989.000",
+        "remainder": "100"
+      },
+      {
+        "image": "iphone_13_blue_1_4_1-removebg-preview.png",
+        "name": "Iphone 13",
+        "price": "Rp14.899.000",
+        "remainder": "100"
+      },
+      {
+        "image": "iphone_13_pro_sierra_blue_1_5_1-removebg-preview.png",
+        "name": "Iphone 13 Pro",
+        "price": "Rp17.950.000",
+        "remainder": "100"
+      },
+      {
+        "image": "download__10_-removebg-preview.png",
+        "name": "Samsung Galaxy S21",
+        "price": "Rp9.399.000",
+        "remainder": "100"
+      }
+    ]
+  },
+  {
+    "Television": [
+      {
+        "image": "download__11_-removebg-preview.png",
+        "name": "Samsung Curved Smart TV",
+        "price": "Rp15.716.000",
+        "remainder": "100"
+      },
+      {
+        "image": "89c9feae8f2962468aff0c096826dc76-removebg-preview.png",
+        "name": "Xiaomi Smart LED TV",
+        "price": "Rp68.999.000",
+        "remainder": "100"
+      },
+      {
+        "image": "download__12_-removebg-preview.png",
+        "name": "Samsung 4k Smart Tv",
+        "price": "Rp17.589.440",
+        "remainder": "100"
+      },
+      {
+        "image": "download__13_-removebg-preview.png",
+        "name": "Sharp Smart Android TV",
+        "price": "Rp24.049.000",
+        "remainder": "100"
+      },
+      {
+        "image": "download__14_-removebg-preview.png",
+        "name": "Xiao Mi TV Q1",
+        "price": "Rp38.285.000",
+        "remainder": "100"
+      }
+    ]
+  },
+  {
+    "Refrigerator": [
+      {
+        "image": "download__15_-removebg-preview.png",
+        "name": "LG Side By Side Refrigerator",
+        "price": "Rp21.999.000",
+        "remainder": "100"
+      },
+      {
+        "image": "download__16_-removebg-preview.png",
+        "name": "Samsung Multi Door Refrigerator<",
+        "price": "Rp10.628.000",
+        "remainder": "100"
+      },
+      {
+        "image": "download__17_-removebg-preview.png",
+        "name": "Delizia French Door Refrigerator",
+        "price": "Rp24.851.875",
+        "remainder": "100"
+      },
+      {
+        "image": "download__18_-removebg-preview.png",
+        "name": "LG Side By Side Refrigerator",
+        "price": "Rp26.350.000",
+        "remainder": "100"
+      },
+      {
+        "image": "download__19_-removebg-preview.png",
+        "name": "LG Side By Side Inverter",
+        "price": "Rp13.150.800",
+        "remainder": "100"
+      }
+    ]
+  },
+  {
+    "Speaker": [
+      {
+        "image": "download__20_-removebg-preview.png",
+        "name": "BOSE 161 Stereo",
+        "price": "Rp3.432.000",
+        "remainder": "100"
+      },
+      {
+        "image": "xiaomi_xiaomi_xiaoai_smart_speaker_pro_ai_bluetooth_hifi_audio_wireless_mesh_gateway_lx06_full04_hhunnsts-removebg-preview.png",
+        "name": "Xiaomi Smart Speaker LX06",
+        "price": "Rp960.500",
+        "remainder": "100"
+      },
+      {
+        "image": "download__21_-removebg-preview.png",
+        "name": "Harman Kardon Allure 360 Voice Controlled Original",
+        "price": "Rp4.200.000",
+        "remainder": "100"
+      },
+      {
+        "image": "download__22_-removebg-preview.png",
+        "name": "Google Home Max Smart Speaker with Google Assistant Charcoal",
+        "price": "Rp2.694.000",
+        "remainder": "100"
+      },
+      {
+        "image": "images__1_-removebg-preview.png",
+        "name": "Widya Wicara Prima Smart Speaker",
+        "price": "Rp1.499.000",
+        "remainder": "100"
+      }
+    ]
+  },
+  {
+    "Printer": [
+      {
+        "image": "polytron_polytron-pfl-7050-front-load-mesin-cuci--7-kg-_full05-removebg-preview.png",
+        "name": "Polytron Front Loading PFL 7050",
+        "price": "Rp3.549.000",
+        "remainder": "100"
+      },
+
+      {
+        "image": "download__23_-removebg-preview.png",
+        "name": "Sharp EsT65nt 2 tabung",
+        "price": "Rp1.350.000",
+        "remainder": "100"
+      },
+
+      {
+        "image": "download__24_-removebg-preview.png",
+        "name": "Polytron Front Loading PFL 8051",
+        "price": "Rp3.749.000",
+        "remainder": "100"
+      },
+
+      {
+        "image": "download__25_-removebg-preview.png",
+        "name": "Samsung Top Loading WA70H4000SG",
+        "price": "Rp2.835.000",
+        "remainder": "100"
+      },
+
+      {
+        "image": "download__26_-removebg-preview.png",
+        "name": "Samsung Front Loading WD10K6410OX",
+        "price": "Rp10.600.800",
+        "remainder": "100"
+      }
+    ]
+  },
+  {
+    "WashingM": [
+      {
+        "image": "download__27_-removebg-preview.png",
+        "name": "Canon PIXMA TR4570S",
+        "price": "Rp1.672.090",
+        "remainder": "100"
+      },
+
+      {
+        "image": "download__28_-removebg-preview.png",
+        "name": "Epson L3210",
+        "price": "Rp2.270.000",
+        "remainder": "100"
+      },
+
+      {
+        "image": "download__29_-removebg-preview.png",
+        "name": "Epson L360",
+        "price": "Rp15.210.000",
+        "remainder": "100"
+      },
+
+      {
+        "image": "download__30_-removebg-preview.png",
+        "name": "Epson L3150",
+        "price": "Rp3.999.000",
+        "remainder": "100"
+      },
+
+      {
+        "image": "download__31_-removebg-preview.png",
+        "name": "Canon G2010",
+        "price": "Rp1.999.999",
+        "remainder": "100"
+      }
+    ]
+  }
+]

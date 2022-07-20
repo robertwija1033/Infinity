@@ -1,0 +1,39 @@
+.container-notfound {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  padding: 50px;
+  gap: 25px;
+}
+
+.container-notfound .notfound-image {
+  text-align: center;
+  width: 100%;
+}
+
+.container-notfound .notfound-image img {
+  width: 40%;
+}
+
+.container-notfound .notfound-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #0a1b69;
+  gap: 20px;
+}
+
+.container-notfound a {
+  padding: 15px 30px;
+  background-color: #0a1b69;
+  color: #0afdc6;
+  border-radius: 10px;
+  border: 1px solid #0a1b69;
+}
+
+.container-notfound a:hover {
+  background-color: transparent;
+  color: #0a1b69;
+}

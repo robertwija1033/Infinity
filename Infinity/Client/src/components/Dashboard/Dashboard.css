@@ -1,0 +1,183 @@
+.container-dashboard {
+  display: flex;
+  flex-direction: row;
+}
+
+.container-dashboard .dashboard {
+  display: flex;
+  padding: 20px;
+  width: 100%;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.container-dashboard .dashboard h3 {
+  color: #0a1b69;
+}
+
+.container-dashboard .dashboard .card-dashboard {
+  display: flex;
+  flex-wrap: wrap;
+  /* background-color: blue; */
+  flex-direction: row;
+  gap: 20px;
+  z-index: -1;
+}
+
+.container-dashboard .dashboard .card-dashboard .card-box {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: #0a1b69;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: #0afdc6;
+}
+
+.container-dashboard .dashboard .card-dashboard .card-box h3 {
+  color: #0afdc6;
+}
+
+.container-dashboard .dashboard .card-dashboard .card-box .view {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  align-items: center;
+}
+
+.container-dashboard .dashboard .card-dashboard .card-box i {
+  font-size: 2rem;
+  color: #0afdc6;
+}
+
+.container-dashboard .dashboard .card-dashboard .card-box .bi.dash {
+  padding: 20px 25px;
+  width: fit-content;
+  background-color: white;
+  border-radius: 10px;
+  color: #0a1b69;
+}
+
+.container-dashboard .dashboard .card-dashboard .card-box .date {
+  padding: 10px 0 0;
+  border-top: 1px solid white;
+}
+
+.dashboard-order {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.dashboard-order table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.dashboard-order table th {
+  padding: 15px 15px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: #0a1b69;
+  color: #0afdc6;
+}
+
+.dashboard-order table th:first-child {
+  border-radius: 10px 0 0 10px;
+}
+
+.dashboard-order table th:last-child {
+  border-radius: 0 10px 10px 0;
+}
+
+.dashboard-order table tr {
+  text-align: left;
+}
+
+.dashboard-order table td {
+  text-align: left;
+  font-weight: bold;
+}
+
+table td[data-label="Status"] span {
+  padding: 10px 20px;
+  border-radius: 10px;
+  text-align: left;
+  color: white;
+}
+
+table td[data-label="Status"] span.paid {
+  background-color: #198754;
+}
+
+table td[data-label="Status"] span.unpaid {
+  background-color: #dc3545;
+}
+
+table td[data-label="Status"] span.process {
+  background-color: #ffc107;
+}
+
+.dashboard-order table td {
+  padding: 10px 15px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-order table td img {
+  width: 100px;
+}
+
+.dashboard-order table td button {
+  padding: 15px 30px;
+  background-color: #0a1b69;
+  border: 1px solid #0a1b69;
+  color: #0afdc6;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.dashboard-order table td button:hover {
+  background-color: transparent;
+  color: #0a1b69;
+}
+
+/* .dashboard-order table td .quantity {
+  display: flex;
+  align-items: center;
+} */
+
+@media (max-width: 1000px) {
+  .dashboard-order table thead {
+    display: none;
+  }
+
+  .dashboard-order table,
+  .dashboard-order table tbody,
+  .dashboard-order table tr,
+  .dashboard-order table td {
+    display: block !important;
+    width: 100%;
+  }
+
+  .dashboard-order table td {
+    text-align: right;
+    padding-left: 50%;
+    position: relative;
+  }
+
+  .dashboard-order table td::before {
+    content: attr(data-label);
+    position: absolute;
+    left: 0;
+    width: 50%;
+    padding-left: 15px;
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: left;
+  }
+
+  .dashboard-order table td .quantity {
+    justify-content: flex-end;
+  }
+}
