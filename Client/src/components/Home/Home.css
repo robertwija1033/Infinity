@@ -1,0 +1,229 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat";
+}
+
+body {
+  overflow-x: hidden;
+  font-family: "Montserrat";
+  /* min-height: 100vh; */
+}
+
+a {
+  color: white;
+}
+
+.card-box {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card-box .card {
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  height: 450px;
+  margin: 10px;
+  overflow: hidden;
+  position: inherit;
+  width: 250px;
+}
+
+.card-box .card:hover {
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+}
+
+.card-box .card::before {
+  background-color: #0a1b69;
+  content: "";
+  clip-path: circle(150px at 80% 20%);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  transition: 0.5s ease-in-out;
+}
+
+.card-box .card:hover::before {
+  background-color: #0a1b69;
+  clip-path: circle(0);
+}
+
+.card-box .card .image-box {
+  height: 200px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: 1s;
+  width: 100%;
+  z-index: 10;
+}
+
+.card-box .card:hover .image-box {
+  top: 0%;
+  transform: translateY(0%);
+  zoom: 120%;
+}
+
+.card-box .card .image-box img {
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 200px;
+}
+
+.card-box .card .content-card {
+  bottom: 0;
+  height: 80px;
+  position: absolute;
+  text-align: center;
+  transition: 1.2s;
+  width: 100%;
+  z-index: 10;
+}
+
+.card-box .card:hover .content-card {
+  height: 200px;
+}
+
+.card-box .card .content-card h2 {
+  color: #0a1b69;
+  font-weight: 600;
+  font-size: 1rem;
+  letter-spacing: 1px;
+}
+
+.card-box .card .content-card .content {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  opacity: 0;
+  padding: 0 10px;
+  transition: 0.5s;
+}
+
+.card-box .card:hover .content-card .content {
+  opacity: 1;
+  transition-delay: 0.5s;
+  visibility: visible;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+
+.card-box .card .content-card .content h3 {
+  color: #0a1b69;
+  font-weight: 300;
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.card-box .card .content-card .content span {
+  border-radius: 8px;
+  cursor: pointer;
+  color: #0a1b69;
+  font-size: 1rem;
+  height: 30px;
+  line-height: 33px;
+  text-align: center;
+  transition: 0.5s;
+  margin-left: 0px;
+}
+
+.card-box .card .content-card .content span:hover {
+  background: #0a1b69;
+  color: white;
+  padding: 0px 8px 32px;
+}
+
+.card-box .card .content-card .information {
+  color: #0a1b69;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  padding: 5px;
+}
+
+.card-box .card .content-card .information h3 {
+  font-size: 1.1rem;
+  padding: 2px 5px 5px;
+}
+
+.card-box .card .content-card .information h3:hover {
+  background-color: #0a1b69;
+  border-radius: 5px;
+  color: white;
+}
+
+.card-box .card .content-card a,
+.card-box .card .content-card button {
+  background-color: #0a1b69;
+  border-radius: 8px;
+  color: #0afdc6 !important;
+  display: inline-block;
+  opacity: 0;
+  padding: 10px 20px;
+  transform: translateY(100px);
+  transition: 0.5s;
+  text-decoration: none;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+}
+
+.card-box .card .content-card a:hover,
+.card-box .card .content-card button:hover {
+  transition: 0s !important;
+  transition-delay: 0s !important;
+  text-shadow: 0px 0px 3px #0afdc6;
+}
+
+.card-box .card:hover .content-card a,
+.card-box .card:hover .content-card button {
+  opacity: 1;
+  transform: translateY(0px);
+  transition-delay: 0.8s;
+}
+
+.bag {
+  align-items: center;
+  bottom: 50px;
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  position: fixed;
+  right: 50px;
+}
+
+.bag h2 {
+  color: #0a1b69;
+}
+
+.bag .icon-bag {
+  align-items: center;
+  background-color: #0a1b69;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  padding: 17px 20px;
+}
+
+.bag .icon-bag i {
+  color: #0afdc6;
+  font-size: 1.5rem;
+}
+
+@media (max-width: 991px) {
+  .card-box {
+    position: relative;
+    justify-content: center;
+  }
+}

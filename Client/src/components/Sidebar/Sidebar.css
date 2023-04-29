@@ -1,0 +1,98 @@
+.container-sidebar {
+  background-color: #0a1b69;
+  left: 0;
+  position: sticky;
+  top: 0;
+  width: 310px;
+  height: 100vh;
+  bottom: 0;
+}
+
+.container-sidebar.open {
+  width: 70px;
+}
+
+.container-sidebar .sidebar {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  gap: 25px;
+  /* position: absolute; */
+}
+
+.sidebar .bi-list {
+  color: #0afdc6;
+  font-size: 1.4rem;
+  padding: 20px 20px 0;
+  text-align: left;
+}
+
+.container-sidebar .sidebar .sidebar-brand {
+  display: flex;
+  gap: 20px;
+  padding: 20px 0px 0;
+  align-items: center;
+}
+
+.container-sidebar.open .sidebar .sidebar-brand {
+  display: none;
+}
+
+.container-sidebar .sidebar .sidebar-brand img {
+  width: 50px;
+}
+
+.container-sidebar .sidebar .sidebar-brand h3 {
+  color: #0afdc6;
+}
+
+.sidebar-link {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.container-sidebar .sidebar .sidebar-link .menu {
+  display: flex;
+  gap: 30px;
+  padding: 20px;
+  align-items: center;
+  overflow: hidden;
+  /* transition: 0.4s; */
+  height: 68px;
+}
+
+.container-sidebar .sidebar .sidebar-link .menu:hover {
+  width: 250px;
+  background-color: #0a1b69;
+}
+
+.container-sidebar.active .sidebar .sidebar-link .menu:hover span {
+  transition: 1s;
+}
+
+/* .container-sidebar .sidebar .sidebar-link a:hover {
+  background-color: white;
+} */
+
+.container-sidebar .sidebar .sidebar-link i,
+.container-sidebar .sidebar .sidebar-link span {
+  color: #0afdc6;
+  font-size: 1.4rem;
+}
+
+.bi.bi-chevron-down {
+  transition: 0.4s;
+}
+
+.bi.bi-chevron-down.active {
+  transform: rotate(180deg);
+}
+
+@media (max-width: 1300px) {
+  .container-sidebar {
+    /* position: fixed; */
+  }
+}

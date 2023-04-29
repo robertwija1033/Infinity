@@ -1,0 +1,38 @@
+.container-alert {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  padding: 15px;
+  top: 0px;
+  transition: 0.5s;
+  width: 100%;
+  z-index: 1;
+}
+
+.container-alert.active {
+  top: 75px;
+}
+
+.container-alert .alert {
+  align-items: center;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: space-between;
+  max-width: 70%;
+  padding: 15px 15px;
+  width: 100%;
+}
+
+.container-alert .alert-text {
+  gap: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-alert .alert.active {
+  display: none;
+}

@@ -1,0 +1,128 @@
+.container-payment {
+  padding: 50px 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.container-payment .payment-details {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  background-color: #0a1b69;
+  border-radius: 10px;
+}
+
+.container-payment .payment-details .details-logo {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+}
+
+.container-payment .payment-details .details-logo i,
+.container-payment .payment-details .details-logo h4 {
+  font-size: 1rem;
+  color: #0afdc6;
+}
+
+.container-payment .payment-details .details-shipment {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.container-payment .payment-details .details-shipment .shipment-contact {
+  color: #0afdc6;
+}
+
+.container-payment .payment-details .details-shipment .shipment-address {
+  flex: 1;
+  margin-left: 50px;
+  color: #0afdc6;
+  font-size: 1rem;
+}
+
+.container-payment .payment-details .details-shipment .shipment-address p {
+  font-weight: 400;
+}
+
+.container-payment .payment-details .details-shipment .shipement-change {
+  color: #0afdc6;
+  font-size: 0.9rem;
+  padding-right: 15px;
+  cursor: pointer;
+}
+
+.container-payment .product-buynow {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.container-payment .product-buynow .product-detail {
+  width: fit-content;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #0a1b69;
+  border-radius: 10px;
+  padding: 10px;
+  color: #0afdc6;
+  gap: 40px;
+}
+
+.container-payment .product-buynow .product-image {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.container-payment .product-buynow .product-image img {
+  width: 130px;
+}
+
+.container-payment .product-quantity {
+  display: flex;
+  align-items: center;
+}
+
+.container-payment .product-quantity button {
+  padding: 3px 8px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  background-color: #0a1b69;
+  color: white;
+  box-shadow: 1px 5px 10px rgba(255, 255, 255, 0.3);
+  border: 1px solid #0afdc6;
+}
+
+.container-payment .product-quantity p {
+  padding: 0 13px 0 12px;
+  color: #0afdc6;
+}
+
+.container-payment .payment {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-payment .payment button {
+  padding: 15px 50px;
+  border: none;
+  border-radius: 5px;
+  background-color: #0a1b69;
+  border: 1px solid #0a1b69;
+  color: #0afdc6;
+  font-weight: bold;
+}
+
+.container-payment .payment button:hover {
+  background-color: transparent;
+  border: 1px solid #0a1b69;
+  color: #0a1b69;
+}
